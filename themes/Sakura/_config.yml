@@ -1,0 +1,118 @@
+# site name
+prefixName: さみしい
+siteName: 孤独人
+# favicon and site master avatar
+favicon: /images/favicon.ico
+avatar: /img/avatar.jpeg
+url: https://trueloving.gitee.io/blog/
+description: Walking alone in this colorful but cold-blooded World  
+cdn: https://gitee.com/trueLoving/cdn/raw/master
+pjax: 1
+# 1开启
+mathjax: 1
+
+# notice: hexo-Sakura主题已经开源，目前正在开发中...
+lazyloadImg: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg
+
+menus:
+  首页: { path: /, fa: fa-fort-awesome faa-shake }
+  归档: { path: /archives, fa: fa-archive faa-shake, submenus: { 
+    前端: {path: /categories/前端/, fa: fa-code},
+    笔记: {path: /categories/笔记/, fa: fa fa-sticky-note },
+    # 数学: {path: /categories/数学/, fa: fa fa-calculator},
+    算法: {path: /categories/算法/, fa: fa fa-file-code-o },
+    # 生活: {path: /categories/生活/, fa: fa-file-text-o }
+  } }
+  清单: { path: javascript:;, fa: fa-list-ul faa-vertical, submenus: { 
+    # 书单: {path: /tags/悦读/, fa: fa-th-list faa-bounce }, 
+    # 番组: {path: /bangumi/, fa: fa-film faa-vertical }, 
+    歌单: {path: /music/, fa: fa-headphones },
+    # 图集: {path: /tags/图集/, fa: fa-photo }
+  } }
+  # 涂鸦: {path: /paint/,fa: fa fa-paint-brush}
+  文档: {path: /docs/,fa: fa fa-book}
+  # 留言板: { path: /comment/, fa: fa-pencil-square-o faa-tada }
+  友人帐: { path: /links/, fa: fa-link faa-shake }
+  # 赞赏: { path: /donate/, fa: fa-heart faa-pulse }
+  # 关于: { path: /, fa: fa-leaf faa-wrench , submenus: { 
+  #   我？: {path: /about/, fa: fa-meetup}, 
+  #   主题: {path: /theme-sakura/, fa: iconfont icon-sakura },
+  #   Lab: {path: /lab/, fa: fa-cogs },
+  # } }
+  # 客户端: { path: /client/  , fa: fa-android faa-vertical }
+  # RSS: { path: /atom.xml, fa: fa-rss faa-pulse }
+
+
+# Home page sort type: -1: newer first，1: older first.
+homePageSortType: -1
+# Home page article shown number)
+homeArticleShown: 10
+# 背景图片 更好的修改
+bg:
+  - http://p8.qhimg.com/bdm/960_593_0/t01500d7f3ec4e709e6.jpg
+  - http://p7.qhimg.com/bdm/960_593_0/t01d724f2b41065bb99.jpg
+  - http://p8.qhimg.com/bdm/480_296_0/t01173813832463ee5d.jpg
+  - http://p7.qhimg.com/bdm/960_593_0/t01b82df1c2d8a1b4d2.jpg
+  - http://p3.qhimg.com/bdm/960_593_0/t01036d6acf15ccc9b3.jpg
+  - http://p1.qhimg.com/bdm/960_593_0/t01e26213bdf818e8ee.jpg
+  - http://p9.qhimg.com/bdm/960_593_0/t012e360b89440a668f.jpg
+  - http://p7.qhimg.com/bdm/480_296_0/t014fb34699234dd5f9.jpg
+
+# 背景图片样式 空 原图效果 filter-dim 阴影 filter-grid 横条 filter-dot 点点
+bgclass: filter-grid
+
+# startdash url, title, desc img
+startdash: 
+  # - {url: /theme-sakura/, title: Sakura, desc: 本站 hexo 主题, img: /img/Generator_bg.jpg}
+  - {url: https://github.com/trueLoving, title: Github, desc: 菜鸟的Github仓库, img: /img/Generator_bg.jpg}
+  # - {url: /, title: hojun的万事屋, desc: 技术服务, img: /img/Generator_bg.jpg}
+
+
+
+# your site build time or founded date
+# siteBuildingTime: 07/17/2018
+
+#social  url, img PC端配置
+social:
+  github: {url: https://github.com/trueLoving, img: /img/github.png}
+  # sina: {url: http://weibo.com/mashirozx?is_all=1, img: /img/social/sina.png}
+  # wangyiyun: {url: http://weibo.com/mashirozx?is_all=1, img: /img/social/wangyiyun.png}
+  # zhihu: {url: http://weibo.com/mashirozx?is_all=1, img: /img/social/zhihu.png}
+  # email: {url: http://weibo.com/mashirozx?is_all=1, img: /img/social/email.svg}
+  # wechat: {url: /#, qrcode: /img/custom/wechat.jpg, img: /img/social/wechat.png}
+  # wechat2: {url: /#, qrcode: /img/custom/wechat.jpg, img: /img/social/wechat.png}
+
+#social  url, img 移动端配置
+msocial:
+  github: {url: https://github.com/trueLoving, fa: fa-github, color: 333}
+  qq: {url: https://wpa.qq.com/msgrd?v=3&uin=954655431&site=qq&menu=yes, fa: fa-qq, color: 25c6fe}
+
+donate:
+  paypal: https://www.paypal.me/hojuncn
+  alipay: /img/Alipay.jpg
+  wechat: /img/wechat.png
+  wechatSQ: /img/custom/donate/WeChanSQ.jpg
+
+# 视频地址为https://cdn.jsdelivr.net/gh/honjun/hojun@1.2/Unbroken.mp4，配置如下
+movies:
+  url: https://cdn.jsdelivr.net/gh/honjun/hojun@1.2
+  # 多个视频用逗号隔开，随机获取。支持的格式目前已知MP4,Flv。其他的可以试下，不保证有用
+  name: Unbroken.mp4
+
+aplayer: 
+  id: 2622496839
+  server: netease
+  type: playlist
+  fixed: true
+  autoplay: false
+  loop: all
+  order: random
+  preload: auto
+  volume: 0.7
+  mutex: true
+
+# Valine
+valine: true
+v_appId: GyC3NzMvd0hT9Yyd2hYIC0MN-gzGzoHsz
+v_appKey: mgOpfzbkHYqU92CV4IDlAUHQ
+

@@ -1,0 +1,23 @@
+{
+  "name": "hexo-renderer-dart-sass",
+  "version": "0.0.1",
+  "description": "Sass renderer plugin for Hexo",
+  "main": "index",
+  "files": [
+    "libs"
+  ],
+  "keywords": [
+    "hexo",
+    "sass",
+    "scss",
+    "renderer"
+  ],
+  "author": {
+    "name": "届か ない こい 恋",
+    "url": "https://github.com/trueLoving"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dart-sass": "^1.25.0"
+  }
+}
