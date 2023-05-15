@@ -1,22 +1,27 @@
 # Header
-navname: Bentham's Blog
+navname: HOME
+
+# enable theme
+enable_theme: false
 
 # navigatior items
 nav:
   Posts: /archives
   Categories: /category
-  Tags: /tag
-  About: /about
+  Tags: /tags
+  # Collection: /collection
+  # Online: /online
+  # About: /about
 
 # favicon
 favicon: /favicon.ico
 
 # Profile
-nickname: Jeremy Bentham
+nickname: Star sky
 
 ### this variable is MarkDown form.
-description: Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** <br>Fusce eget urna vitae velit *eleifend interdum at ac* nisi.
-avatar: /image/avatar.jpeg
+description: do more, be better!
+avatar: https://avatars.githubusercontent.com/u/44056372
 
 # main menu navigation
 ## links key words should not be changed.
@@ -33,7 +38,7 @@ links:
   # Gallery:
   # RSS:
   # AliPay:
-  ZhiHu: https://www.zhihu.com/people/sirice
+  # ZhiHu: https://www.zhihu.com/people/sirice
   # LinkedIn:
   # FaceBook:
   # Twitter:
@@ -43,13 +48,13 @@ links:
   # Sketch:
   # Gitlab:
   # Dribbble:
-  Instagram:
-  Reddit:
+  # Instagram:
+  # Reddit:
   # YouTube:
   # QQ:
   # Weibo:
   # WeChat:
-  Github: https://github.com/Siricee
+  Github: https://github.com/trueLoving
 
 # how links show: you have 2 choice--text or icon.
 links_text_enable: false
