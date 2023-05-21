@@ -9,9 +9,7 @@ nav:
   Posts: /archives
   Categories: /category
   Tags: /tags
-  # Collection: /collection
-  # Online: /online
-  # About: /about
+  Playground: http://www.baidu.com
 
 # favicon
 favicon: /favicon.ico
@@ -62,19 +60,19 @@ links_icon_enable: true
 
 # Post page
 ## Post_meta
-post_meta_enable: true
+post_meta_enable: false
 
-post_author_enable: true
+post_author_enable: false
 post_date_enable: true
 post_category_enable: true
 ## Post copyright
-post_copyright_enable: true
+post_copyright_enable: false
 
-post_copyright_author_enable: true
-post_copyright_permalink_enable: true
-post_copyright_license_enable: true
+post_copyright_author_enable: false
+post_copyright_permalink_enable: false
+post_copyright_license_enable: false
 post_copyright_license_text: Copyright (c) 2019 <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC-4.0</a> LICENSE
-post_copyright_slogan_enable: true
+post_copyright_slogan_enable: false
 post_copyright_slogan_text: Do you believe in <strong>DESTINY</strong>?
 ## toc
 post_toc_enable: true
